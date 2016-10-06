@@ -1,6 +1,4 @@
-<?php
-
-echo '<body>
+<body>
 		
 		<div class="site-content">
 			<div class="site-header">
@@ -32,7 +30,7 @@ echo '<body>
 
 			<div class="hero" data-bg-image="images/banner.png">
 				<div class="container">
-					<form action="weather_api.php" class="find-location" method="POST">
+					<form action="index.php" class="find-location" method="POST">
 						<input type="text" placeholder="Find your location..." name="search">
 						<input type="submit" value="Find">
 					</form>
@@ -60,7 +58,78 @@ echo '<body>
 								<span><img src="images/icon-compass.png" alt="">East</span>
 							</div>
 						</div>
-						
+						<div class="forecast">
+							<div class="forecast-header">
+								<div class="day">Tuesday</div>
+							</div> <!-- .forecast-header -->
+							<div class="forecast-content">
+								<div class="forecast-icon">
+									<img src="images/icons/icon-3.svg" alt="" width=48>
+								</div>
+								<div class="degree">23<sup>o</sup>C</div>
+								<small>18<sup>o</sup></small>
+							</div>
+						</div>
+						<div class="forecast">
+							<div class="forecast-header">
+								<div class="day">Wednesday</div>
+							</div> <!-- .forecast-header -->
+							<div class="forecast-content">
+								<div class="forecast-icon">
+									<img src="images/icons/icon-5.svg" alt="" width=48>
+								</div>
+								<div class="degree">23<sup>o</sup>C</div>
+								<small>18<sup>o</sup></small>
+							</div>
+						</div>
+						<div class="forecast">
+							<div class="forecast-header">
+								<div class="day">Thursday</div>
+							</div> <!-- .forecast-header -->
+							<div class="forecast-content">
+								<div class="forecast-icon">
+									<img src="images/icons/icon-7.svg" alt="" width=48>
+								</div>
+								<div class="degree">23<sup>o</sup>C</div>
+								<small>18<sup>o</sup></small>
+							</div>
+						</div>
+						<div class="forecast">
+							<div class="forecast-header">
+								<div class="day">Friday</div>
+							</div> <!-- .forecast-header -->
+							<div class="forecast-content">
+								<div class="forecast-icon">
+									<img src="images/icons/icon-12.svg" alt="" width=48>
+								</div>
+								<div class="degree">23<sup>o</sup>C</div>
+								<small>18<sup>o</sup></small>
+							</div>
+						</div>
+						<div class="forecast">
+							<div class="forecast-header">
+								<div class="day">Saturday</div>
+							</div> <!-- .forecast-header -->
+							<div class="forecast-content">
+								<div class="forecast-icon">
+									<img src="images/icons/icon-13.svg" alt="" width=48>
+								</div>
+								<div class="degree">23<sup>o</sup>C</div>
+								<small>18<sup>o</sup></small>
+							</div>
+						</div>
+						<div class="forecast">
+							<div class="forecast-header">
+								<div class="day">Sunday</div>
+							</div> <!-- .forecast-header -->
+							<div class="forecast-content">
+								<div class="forecast-icon">
+									<img src="images/icons/icon-14.svg" alt="" width=48>
+								</div>
+								<div class="degree">23<sup>o</sup>C</div>
+								<small>18<sup>o</sup></small>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -209,4 +278,4 @@ echo '<body>
 		<script src="js/app.js"></script>
 		
 	</body>
-</html>';
+</html>
