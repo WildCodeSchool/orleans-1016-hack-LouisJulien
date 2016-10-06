@@ -40,7 +40,7 @@
 			<div class="forecast-table">
 				<div class="container">
 					<div class="forecast-container">
-						<div class="today forecast">
+						<div class="today forecast tarba">
 							<div class="forecast-header">
 								<div class="day"><?php echo date("F d Y") ?></div>
 							</div> <!-- .forecast-header -->
@@ -109,10 +109,10 @@
 
 											?>
 									</div>
-							</div>
-
-
-
+                                    <div class="deezer">
+                                        <?php include "deezer_api.php"; ?>
+                                    </div>
+							    </div>
 							</div>
 							<span><img src="images/icon-umberella.png" alt="">
 								<?php if (empty($decode)){
@@ -131,11 +131,10 @@
 								?>
 								</span>
 						</div>
-
-						</div>
-					</div>
-				</div>
-			</div>
+                    </div>
+                </div>
+            </div>
+        </div>
 			<main class="main-content">
 				<div class="fullwidth-block">
 					<div class="container">
