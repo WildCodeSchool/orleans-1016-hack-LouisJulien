@@ -31,8 +31,8 @@
 			<div class="hero" data-bg-image="images/banner.png">
 				<div class="container">
 					<form action="index.php" class="find-location" method="POST">
-						<input type="text" placeholder="Find your location..." name="search">
-						<input type="submit" value="Find">
+						<input type="text" placeholder="Entrez un nom de ville..." name="search">
+						<input type="submit" value="Launch">
 					</form>
 
 				</div>
@@ -42,19 +42,18 @@
 					<div class="forecast-container">
 						<div class="today forecast">
 							<div class="forecast-header">
-								<div class="day">Monday</div>
-								<div class="date">6 Oct</div>
+								<div class="day"><?php echo date("F d Y") ?></div>
 							</div> <!-- .forecast-header -->
 							<div class="forecast-content">
 								<div class="location"><?php echo $decode['name']?></div>
 								<div class="degree">
-									<div class="num"><?php echo abs($decode['main']['temp'])?><sup>o</sup>C</div>
+									<div class="num"><?php echo round(($decode['main']['temp'] - 273.15),1)?><sup>o</sup>C</div>
 									<div class="forecast-icon">
 										<img src="images/icons/icon-1.svg" alt="" width=90>
 									</div>	
 								</div>
-								<span><img src="images/icon-umberella.png" alt=""><?php echo $decode['main']['humidity'] ?></span>
-								<span><img src="images/icon-wind.png" alt=""><?php echo $decode['wind']['speed'] ?></span>
+								<span><img src="images/icon-umberella.png" alt=""><?php echo $decode['main']['humidity'].'%' ?></span>
+								<span><img src="images/icon-wind.png" alt=""><?php echo round(($decode['wind']['speed']*1.609)).' km/h' ?></span>
 
 							</div>
 						</div>
