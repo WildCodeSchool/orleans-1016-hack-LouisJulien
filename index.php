@@ -47,8 +47,8 @@
 
 			<div class="hero" data-bg-image="images/banner.png">
 				<div class="container">
-					<form action="#" class="find-location">
-						<input type="text" placeholder="Find your location...">
+					<form action="weather_api.php" class="find-location" method="POST">
+						<input type="text" placeholder="Find your location..." name="search">
 						<input type="submit" value="Find">
 					</form>
 
