@@ -42,19 +42,50 @@
 					<div class="forecast-container">
 						<div class="today forecast">
 							<div class="forecast-header">
-								<div class="day">Monday</div>
-								<div class="date">6 Oct</div>
+								<div class="day"><?php echo date("F d Y") ?></div>
 							</div> <!-- .forecast-header -->
 							<div class="forecast-content">
-								<div class="location"><?php echo $decode['name']?></div>
+								<div class="location">
+									<?php if (empty($decode)){
+
+										echo 'Nous n\'avons pas trouvé : veuillez entrer un nom de ville ou son ID';
+
+									} else {
+
+										echo $decode['name'];
+
+}?></div>
 								<div class="degree">
-									<div class="num"><?php echo abs($decode['main']['temp'])?><sup>o</sup>C</div>
+									<div class="num">
+										<?php if (empty($decode)){
+
+											echo "?";
+										} else {
+											echo round(($decode['main']['temp'] - 273.15),1);
+										}
+
+										?>
+										<sup>o</sup>C</div>
 									<div class="forecast-icon">
 										<img src="images/icons/icon-1.svg" alt="" width=90>
 									</div>	
 								</div>
-								<span><img src="images/icon-umberella.png" alt=""><?php echo $decode['main']['humidity'] ?></span>
-								<span><img src="images/icon-wind.png" alt=""><?php echo $decode['wind']['speed'] ?></span>
+								<span><img src="images/icon-umberella.png" alt="">
+									<?php if (empty($decode)){
+										echo '?';
+									} else {
+										echo $decode['main']['humidity'].'%';
+									}
+									?>
+								</span>
+								<span><img src="images/icon-wind.png" alt="">
+									<?php if (empty($decode)){
+										echo "?";
+									} else {
+										echo round(($decode['wind']['speed']*1.609)).' km/h';
+									}
+									?>
+								</span>
 
 							</div>
 						</div>
