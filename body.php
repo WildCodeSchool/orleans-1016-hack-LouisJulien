@@ -103,7 +103,7 @@
 												echo "<img src=\"images/icons/icon-8.svg\" alt=\">\" width='90'";
 											}
 
-											else{
+											else {
 												echo "<img src=\"images/icons/icon-5.svg\" alt=\">\" width='90'";
 											}
 
