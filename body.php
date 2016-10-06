@@ -1,5 +1,5 @@
 <body>
-		
+
 		<div class="site-content">
 			<div class="site-header">
 				<div class="container">
@@ -54,7 +54,7 @@
 
 										echo $decode['name'];
 
-}?></div>
+									}?></div>
 								<div class="degree">
 									<div class="num">
 										<?php if (empty($decode)){
@@ -65,29 +65,71 @@
 										}
 
 										?>
-										<sup>o</sup>C</div>
+										<sup>o</sup>C
+									</div>
+
 									<div class="forecast-icon">
-										<img src="images/icons/icon-1.svg" alt="" width=90>
-									</div>	
-								</div>
-								<span><img src="images/icon-umberella.png" alt="">
-									<?php if (empty($decode)){
-										echo '?';
-									} else {
-										echo $decode['main']['humidity'].'%';
-									}
-									?>
-								</span>
-								<span><img src="images/icon-wind.png" alt="">
-									<?php if (empty($decode)){
-										echo "?";
-									} else {
-										echo round(($decode['wind']['speed']*1.609)).' km/h';
-									}
-									?>
-								</span>
+											<?php
+
+											if ($weather_type=='Rain'){
+												echo "<img src=\"images/icons/icon-10.svg\" alt=\">\" width='90'";
+											}
+
+											elseif ($weather_type=='Thunderstorm'){
+												echo "<img src=\"images/icons/icon-11.svg\" alt=\">\" width='90'";
+											}
+
+											elseif ($weather_type=='Drizzle'){
+												echo "<img src=\"images/icons/icon-9.svg\" alt=\">\" width='90'";
+											}
+
+											elseif ($weather_type=='Snow'){
+												echo "<img src=\"images/icons/icon-14.svg\" alt=\">\" width='90'";
+											}
+
+											elseif ($weather_type=='Atmosphere'){
+												echo "<img src=\"images/icons/icon-7.svg\" alt=\">\" width='90'";
+											}
+
+											elseif ($weather_type=='Clear'){
+												echo "<img src=\"images/icons/icon-2.svg\" alt=\">\" width='90'";
+											}
+
+											elseif ($weather_type=='Clouds'){
+												echo "<img src=\"images/icons/icon-6.svg\" alt=\">\" width='90'";
+											}
+
+											elseif ($weather_type=='Extreme'){
+												echo "<img src=\"images/icons/icon-8.svg\" alt=\">\" width='90'";
+											}
+
+											else{
+												echo "<img src=\"images/icons/icon-5.svg\" alt=\">\" width='90'";
+											}
+
+											?>
+									</div>
+							</div>
+
+
 
 							</div>
+							<span><img src="images/icon-umberella.png" alt="">
+								<?php if (empty($decode)){
+									echo '?';
+								} else {
+									echo $decode['main']['humidity'].'%';
+								}
+								?>
+								</span>
+							<span><img src="images/icon-wind.png" alt="">
+								<?php if (empty($decode)){
+									echo "?";
+								} else {
+									echo round(($decode['wind']['speed']*1.609)).' km/h';
+								}
+								?>
+								</span>
 						</div>
 
 						</div>
