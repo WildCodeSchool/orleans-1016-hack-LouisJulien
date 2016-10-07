@@ -13,6 +13,7 @@ echo '
 		<!-- Loading third party fonts -->
 		<link href="http://fonts.googleapis.com/css?family=Roboto:300,400,700|" rel="stylesheet" type="text/css">
 		<link href="fonts/font-awesome.min.css" rel="stylesheet" type="text/css">
+		<link rel="javascript" href="load.js" type="javascript">
 
 		<!-- Loading main css file -->
 		<link rel="stylesheet" href="style.css">
