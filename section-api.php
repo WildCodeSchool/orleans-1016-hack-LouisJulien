@@ -84,7 +84,7 @@ include 'weather_api.php';
                                  }
                                  ?>
 								</span>
-                                <span><img src="images/icon-wind.png" alt="">
+                                <span><img src="images/icon-wind.png" alt="" class="vent">
                                     <?php if (empty($decode)){
                                         echo "?";
                                     } else {

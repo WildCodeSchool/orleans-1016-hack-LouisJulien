@@ -49,8 +49,8 @@
             <div class="container input" data-bg-image="images/banner@2x.png">
                 <div class="container input">
                     <form action="index2.php" class="find-location" method="POST" name="find" >
-                        <input class="inp_text" type="text" placeholder="Veuillez tapez le nom d'un ville ou son ID ... Ex : New-York" name="search" value="Paris" >
-                        <input type="submit" value="Find">
+                        <input class="inp_text" type="text" placeholder="Veuillez tapez le nom d'un ville ou son ID (ex : New-York) puis appuyez sur le bouton" name="search">
+                        <input type="submit" value="C'est parti !">
                     </form>
                 </div>
                 <div><a href="#about"><img src="images/right-arrow (1).png" alt=""></a></div>
