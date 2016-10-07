@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
 
@@ -24,9 +24,10 @@
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <?php include 'weather_api.php';?>
 
 </head>
 
@@ -52,17 +53,19 @@
                         <input type="submit" value="Find">
                     </form>
                 </div>
+                <div><a href="#about"><img src="images/right-arrow (1).png" alt=""></a></div>
             </div>
         </div>
     </header>
+    
 
     <!-- About -->
     <section id="about" class="about">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>Stylish Portfolio is the perfect theme for your next project!</h2>
-                    <p class="lead">This theme features some wonderful photography courtesy of <a target="_blank" href="http://join.deathtothestockphoto.com/">Death to the Stock Photo</a>.</p>
+                    <h2>Notre Concept : une ville, une météo, un morceau !</h2>
+                    <p class="lead">Plutôt d'humeur joyeux ? Vous broyer du noir aprés une longue journée ? N'hésitez plus !</p>
                 </div>
             </div>
             <!-- /.row -->
@@ -74,7 +77,6 @@
     <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
     <?php
     include 'section-api.php';
-    include 'weather_api.php';
     ?>
 
     <!-- Callout -->
