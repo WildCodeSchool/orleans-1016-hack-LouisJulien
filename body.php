@@ -1,6 +1,6 @@
-<body>
+<body >
 
-		<div class="site-content">
+    	<div class="site-content">
 			<div class="site-header">
 				<div class="container">
 					<a href="index.php" class="branding">
@@ -30,8 +30,8 @@
 
 			<div class="hero" data-bg-image="images/banner.png">
 				<div class="container">
-					<form action="index.php" class="find-location" method="POST">
-						<input type="text" placeholder="Find your location..." name="search">
+					<form action="index.php" class="find-location" method="POST" name="frm1">
+						<input type="text" placeholder="Find your location..." name="search" value="Paris" >
 						<input type="submit" value="Find">
 					</form>
 
@@ -176,33 +176,33 @@
 				<div class="fullwidth-block" data-bg-color="#262936">
 					<div class="container">
 						<div class="row">
-							<div class="col-md-4">
-								<div class="news">
-									<div class="date">06.10</div>
-									<h3><a href="#">Doloremque laudantium totam sequi </a></h3>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo saepe assumenda dolorem modi, expedita voluptatum ducimus necessitatibus. Asperiores quod reprehenderit necessitatibus harum, mollitia, odit et consequatur maxime nisi amet doloremque.</p>
+							<div class="col-lg-2">
+								<div class="news quote">
+                                    <?php
+                                        include 'quote.php';
+                                    ?>
 								</div>
 							</div>
-							<div class="col-md-4">
-								<div class="news">
-									<div class="date">06.10</div>
-									<h3><a href="#">Doloremque laudantium totam sequi </a></h3>
-									<p>Nobis architecto consequatur ab, ea, eum autem aperiam accusantium placeat vitae facere explicabo temporibus minus distinctio cum optio quis, dignissimos eius aspernatur fuga. Praesentium totam, corrupti beatae amet expedita veritatis.</p>
-								</div>
-							</div>
-							<div class="col-md-4">
-								<div class="news">
-									<div class="date">06.10</div>
-									<h3><a href="#">Doloremque laudantium totam sequi </a></h3>
-									<p>Enim impedit officiis placeat qui recusandae doloremque possimus, iusto blanditiis, quam optio delectus maiores. Possimus rerum, velit cum natus eos. Cumque pariatur beatae asperiores, esse libero quas ad dolorem. Voluptates.</p>
-								</div>
+							<div class="col-md-8">
+                                <h2 class="section-title" style="text-align: center;">Awesome Photos</h2>
+                                <div class="photo-grid">
+                                    <a href="#"><img src="images/thumb-1.jpg" alt="#"></a>
+                                    <a href="#"><img src="images/thumb-2.jpg" alt="#"></a>
+                                    <a href="#"><img src="images/thumb-3.jpg" alt="#"></a>
+                                    <a href="#"><img src="images/thumb-4.jpg" alt="#"></a>
+                                    <a href="#"><img src="images/thumb-5.jpg" alt="#"></a>
+                                    <a href="#"><img src="images/thumb-6.jpg" alt="#"></a>
+                                    <a href="#"><img src="images/thumb-7.jpg" alt="#"></a>
+                                    <a href="#"><img src="images/thumb-8.jpg" alt="#"></a>
+                                    <a href="#"><img src="images/thumb-9.jpg" alt="#"></a>
+                                </div>
 							</div>
 						</div>
 					</div>
 				</div>
 
 				<div class="fullwidth-block">
-					<div class="container">
+					<div class="container-fluid">
 						<div class="row">
 							<div class="col-md-4">
 								<h2 class="section-title">Application features</h2>

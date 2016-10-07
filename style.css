@@ -1692,7 +1692,10 @@ form textarea {
         margin-top: 20px;
 
     }
-    .location
+    .quote {
+
+        font-size: large;
+    }
 
     @media (max-device-width: 450px) {
       .deezer{
