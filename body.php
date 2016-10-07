@@ -103,15 +103,13 @@
 												echo "<img src=\"images/icons/icon-8.svg\" alt=\">\" width='90'";
 											}
 
-											else{
+											else {
 												echo "<img src=\"images/icons/icon-5.svg\" alt=\">\" width='90'";
 											}
 
 											?>
 									</div>
-                                    <div class="deezer">
-                                        <?php include "deezer_api.php"; ?>
-                                    </div>
+
 							    </div>
 							</div>
 							<span><img src="images/icon-umberella.png" alt="">
@@ -130,6 +128,9 @@
 								}
 								?>
 								</span>
+                            <div class="deezer pull-right">
+                                <?php include "deezer_api.php"; ?>
+                            </div>
 						</div>
                     </div>
                 </div>

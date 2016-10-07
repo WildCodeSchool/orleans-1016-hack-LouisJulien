@@ -1264,18 +1264,20 @@ form textarea {
         padding-top: 30px;
         padding-bottom: 30px; }
       .forecast-container .forecast.today .location {
-        font-size: 18px;
-        font-size: 1.2857142857em;
-        font-weight: 400; }
+        font-size: 30px;
+        font-size: 2.2857142857em;
+        font-weight: bold;
+        color: #009ad8;
+        }
       .forecast-container .forecast.today .degree .num, .forecast-container .forecast.today .degree .forecast-icon {
         display: inline-block;
         vertical-align: middle; }
       .forecast-container .forecast.today .degree .num {
-        font-size: 90px;
-        font-size: 6.4285714286rem;
+        font-size: 80px;;
         margin-right: 30px; }
       .forecast-container .forecast.today span {
-        margin-right: 20px; }
+        margin-right: 40px;
+        font-size: 30px;}
         .forecast-container .forecast.today span img {
           margin-right: 5px;
           vertical-align: middle; }
@@ -1693,6 +1695,13 @@ form textarea {
     .quote {
 
         font-size: large;
+    }
+
+    @media (max-device-width: 450px) {
+      .deezer{
+        margin-top: 1000px;
+      }
+
     }
 
 
