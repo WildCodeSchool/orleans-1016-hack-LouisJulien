@@ -70,6 +70,9 @@
 
 									<div class="forecast-icon">
 											<?php
+											if(empty($weather_type)){
+
+											}
 
 											if ($weather_type=='Rain'){
 												echo "<img src=\"images/icons/icon-10.svg\" alt=\">\" width='90'";
