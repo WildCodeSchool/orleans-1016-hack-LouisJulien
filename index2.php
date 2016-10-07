@@ -39,7 +39,7 @@
     
 
     <!-- Header -->
-    <header id="top" class="header">
+    <header id="top" class="header" style=" background: url('<?php include 'weather_influence.php' ?>') no-repeat center";">
 
         <div class="text-vertical-center">
             <img src="images/logo@2x.png">
@@ -63,7 +63,7 @@
     <section id="about" class="about">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 text-center">
+                <div class="col-lg-12 text-center" style="text-shadow: 0 0 0; color: black;">
                     <h2>Notre Concept : une ville, une météo, un morceau !</h2>
                     <p class="lead">Plutôt d'humeur joyeuse ? Vous broyez du noir après une longue journée ? N'hésitez plus !</p>
                 </div>
