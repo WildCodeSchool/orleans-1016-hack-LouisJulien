@@ -109,9 +109,7 @@
 
 											?>
 									</div>
-                                    <div class="deezer">
-                                        <?php include "deezer_api.php"; ?>
-                                    </div>
+
 							    </div>
 							</div>
 							<span><img src="images/icon-umberella.png" alt="">
@@ -130,6 +128,9 @@
 								}
 								?>
 								</span>
+                            <div class="deezer pull-right">
+                                <?php include "deezer_api.php"; ?>
+                            </div>
 						</div>
                     </div>
                 </div>
