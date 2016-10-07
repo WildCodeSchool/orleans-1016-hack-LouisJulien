@@ -285,3 +285,18 @@ form input{
     text-align: center;
 }
 
+.ville{
+    font-size: 40px;
+    padding-bottom: 20px;
+    margin-left: 40px;
+}
+
+.temperature{
+    font-size: 100px;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+
+.donnees{
+    font-size: 30px;
+}
