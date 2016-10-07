@@ -267,7 +267,7 @@ input{
     padding: 20px 50px 20px 20px;
     background: #1e202b;
     color: white;
-    font-size: 14px;
+    font-size: 20px;
 
 }
 .find-location input[type="submit"] {
@@ -278,6 +278,8 @@ input{
     padding: 0 40px;
     background: #009ad8;
     color: floralwhite;
+    font-size: 20px;
+
 }
 
 form input{

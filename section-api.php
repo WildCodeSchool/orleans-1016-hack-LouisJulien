@@ -19,7 +19,7 @@ include 'weather_api.php';
                                 }?>
                                 <?php
                                 if (empty($weather_type)){
-                                    echo "<img src=\"images/icons/icon-1.svg\" alt=\">\" width='90'";
+                                    echo '';
                                 }
                                 elseif ($weather_type=='Rain'){
                                     echo "<img src=\"images/icons/icon-10.svg\" alt=\">\" width='90'";
@@ -65,30 +65,31 @@ include 'weather_api.php';
 
                                 <?php if (empty($decode)){
 
-                                    echo "?";
+                                    echo '';
                                 } else {
-                                    echo round(($decode['main']['temp'] - 273.15),1);
+                                    echo round(($decode['main']['temp'] - 273.15),1).'<sup>o</sup>C';
                                 }
 
                                 ?>
-                                <sup>o</sup>C
+
                                 </div>
                             </div>
                             <div class="col-lg-12 col-md-12 col-xs12">
                                 <div class="donnees">
-                             <span><img src="images/icon-umberella.png" alt="">
+
                                  <?php if (empty($decode)){
-                                     echo '?';
+                                     echo '';
                                  } else {
-                                     echo $decode['main']['humidity'].'%';
+
+                                     echo '<span><img src="images/icon-umberella.png" alt="">'.$decode['main']['humidity'].'%';
                                  }
                                  ?>
 								</span>
-                                <span><img src="images/icon-wind.png" alt="" class="vent">
+
                                     <?php if (empty($decode)){
-                                        echo "?";
+                                        echo '';
                                     } else {
-                                        echo round(($decode['wind']['speed']*1.609)).' km/h';
+                                        echo '<span><img src="images/icon-wind.png" alt="" class="vent">'.round(($decode['wind']['speed']*1.609)).' km/h';
                                     }
                                     ?>
 								</span>
