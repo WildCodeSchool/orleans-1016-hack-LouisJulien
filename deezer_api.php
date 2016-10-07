@@ -6,7 +6,7 @@
 
 
 
-        echo '<iframe class="embed-responsive-item" scrolling="no" frameborder="0" allowTransparency="true" src="https://www.deezer.com/plugins/player?format=square&autoplay=true&playlist=true&width=300&height=300&color=076abf&layout=&size=medium&type=tracks&id=' . $decode_deezer['data'][0]['id'] . '&app_id=1" width="300" height="300"></iframe></br>';
+        echo '<iframe class="embed-responsive-item" scrolling="no" frameborder="0" allowTransparency="true" src="https://www.deezer.com/plugins/player?format=square&autoplay=true&playlist=true&width=400&height=400&color=076abf&layout=&size=medium&type=tracks&id=' . $decode_deezer['data'][0]['id'] . '&app_id=1" width="400" height="400"></iframe></br>';
         echo 'le titre selectioné est : ' . $decode_deezer['data'][0]['title'];
     } else {
         return 'error';
