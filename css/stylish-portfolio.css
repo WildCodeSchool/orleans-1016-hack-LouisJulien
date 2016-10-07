@@ -148,18 +148,17 @@ hr.small {
     margin: 5px 5px 0 0;
 }
 
-/* Header */
+/** ***** */
 
-.header {
+header {
     display: table;
     position: relative;
     width: 100%;
     height: 100%;
-    background: url(../img/bg.jpg) no-repeat center center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
+    background: url("../images/banner.png") no-repeat center scroll;
     background-size: cover;
-    -o-background-size: cover;
+    background
+
 }
 
 /* About */
@@ -248,16 +247,41 @@ footer {
   bottom: 5px;
   right: 5px;
 }
+.input_search{
+   border-radius: 14px;
+}
+input{
+    cursor: auto;
+}
+
 .find-location {
     position: relative;
     margin-bottom: 70px;
-    border-radius: 14px;
+
 }
+
 .find-location input[type="text"] {
     width: 100%;
     padding: 20px 50px 20px 20px;
     background: #1e202b;
     color: white;
 
+}
+.find-location input[type="submit"] {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    bottom: 5px;
+    padding: 0 40px;
+    background: #009ad8;
+    color: floralwhite;
+}
+
+form input{
+    outline: none;
+    border: none;
+    padding: 10px;
+    border-radius: 30px;
+    text-align: center;
 }
 

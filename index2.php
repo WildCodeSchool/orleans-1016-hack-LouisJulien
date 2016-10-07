@@ -45,13 +45,12 @@
             <h1>The WeatherMood Company</h1>
             <h3>Paris, New-York, Tokyo ? Choisissez, vous serez surpris !</h3>
             <br>
-            <div class="" data-bg-image="images/banner.png">
-                <div class="container">
+            <div class="container input" data-bg-image="images/banner@2x.png">
+                <div class="container input">
                     <form action="index2.php" class="find-location" method="POST" name="find" >
                         <input class="inp_text" type="text" placeholder="Find your location..." name="search" value="Paris" >
                         <input type="submit" value="Find">
                     </form>
-
                 </div>
             </div>
         </div>
