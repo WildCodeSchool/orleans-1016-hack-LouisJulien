@@ -1,3 +1,6 @@
+<?php
+include 'weather_api.php';
+?>
 <section id="services" class="services bg-primary">
     <div class="container">
         <div class="row text-center">
