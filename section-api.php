@@ -67,7 +67,7 @@ include 'weather_api.php';
 
                                     echo '';
                                 } else {
-                                    echo round(($decode['main']['temp'] - 273.15),1).'<sup>o</sup>C';
+                                    echo round($decode['main']['temp'],1).'<sup>o</sup>C';
                                 }
 
                                 ?>
@@ -89,7 +89,7 @@ include 'weather_api.php';
                                     <?php if (empty($decode)){
                                         echo '';
                                     } else {
-                                        echo '<span><img src="images/icon-wind.png" alt="" class="vent">'.round(($decode['wind']['speed']*1.609)).' km/h';
+                                        echo '<span><img src="images/icon-wind.png" alt="" class="vent">'.round(($decode['wind']['speed'])*3.6).' km/h';
                                     }
                                     ?>
 								</span>
