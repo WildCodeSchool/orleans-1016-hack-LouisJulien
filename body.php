@@ -3,7 +3,7 @@
     	<div class="site-content">
 			<div class="site-header">
 				<div class="container">
-					<a href="index.php" class="branding">
+					<a href="index3.php" class="branding">
 						<img src="images/logo.png" alt="" class="logo">
 						<div class="logo-type">
 							<h1 class="site-title">The WeatherMood Compagny</h1>
@@ -30,7 +30,7 @@
 
 			<div class="hero" data-bg-image="images/banner.png">
 				<div class="container">
-					<form action="index2.php#about" class="find-location" method="POST" name="frm1" >
+					<form action="index.php#about" class="find-location" method="POST" name="frm1" >
 						<input type="text" placeholder="Find your location..." name="search" value="Paris" >
 						<input type="submit" value="Find">
 					</form>
