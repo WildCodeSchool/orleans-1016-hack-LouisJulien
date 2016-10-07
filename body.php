@@ -1,4 +1,4 @@
-<body onload="document.frm1.submit()">
+<body >
 
     	<div class="site-content">
 			<div class="site-header">

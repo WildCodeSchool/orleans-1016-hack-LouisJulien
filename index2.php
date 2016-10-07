@@ -33,38 +33,25 @@
 <body>
 
     <!-- Navigation -->
-    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
-    <nav id="sidebar-wrapper">
-        <ul class="sidebar-nav">
-            <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
-            <li class="sidebar-brand">
-                <a href="#top" onclick=$("#menu-close").click();>Start Bootstrap</a>
-            </li>
-            <li>
-                <a href="#top" onclick=$("#menu-close").click();>Home</a>
-            </li>
-            <li>
-                <a href="#about" onclick=$("#menu-close").click();>About</a>
-            </li>
-            <li>
-                <a href="#services" onclick=$("#menu-close").click();>Services</a>
-            </li>
-            <li>
-                <a href="#portfolio" onclick=$("#menu-close").click();>Portfolio</a>
-            </li>
-            <li>
-                <a href="#contact" onclick=$("#menu-close").click();>Contact</a>
-            </li>
-        </ul>
-    </nav>
+    
 
     <!-- Header -->
     <header id="top" class="header">
+
         <div class="text-vertical-center">
-            <h1>Start Bootstrap</h1>
-            <h3>Free Bootstrap Themes &amp; Templates</h3>
+            <img src="images/logo@2x.png">
+            <h1>The WeatherMood Company</h1>
+            <h3>Paris, New-York, Tokyo ? Choisissez, vous serez surpris !</h3>
             <br>
-            <a href="#about" class="btn btn-dark btn-lg">Find Out More</a>
+            <div class="" data-bg-image="images/banner.png">
+                <div class="container">
+                    <form action="index2.php" class="find-location" method="POST" name="find" >
+                        <input class="inp_text" type="text" placeholder="Find your location..." name="search" value="Paris" >
+                        <input type="submit" value="Find">
+                    </form>
+
+                </div>
+            </div>
         </div>
     </header>
 
