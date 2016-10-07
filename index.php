@@ -65,7 +65,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center" style="text-shadow: 0 0 0; color: black;">
-                    <h2>Notre Concept : une ville, une météo, un morceau !</h2>
+                    <h2>Notre Concept : une <strong>ville</strong>, une <strong>météo</strong>, un <strong>morceau</strong> !</h2>
                     <p class="lead">Plutôt d'humeur joyeuse ? Vous broyez du noir après une longue journée ? N'hésitez plus !</p>
                 </div>
             </div>
