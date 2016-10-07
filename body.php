@@ -30,7 +30,7 @@
 
 			<div class="hero" data-bg-image="images/banner.png">
 				<div class="container">
-					<form action="index.php" class="find-location" method="POST" name="frm1">
+					<form action="index2.php#about" class="find-location" method="POST" name="frm1" >
 						<input type="text" placeholder="Find your location..." name="search" value="Paris" >
 						<input type="submit" value="Find">
 					</form>
