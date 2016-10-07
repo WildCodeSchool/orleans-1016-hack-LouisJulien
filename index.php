@@ -85,8 +85,10 @@
                 <div class="col-lg-10 col-lg-offset-1 text-center">
                     <h4><strong>Vous avez fait bon voyage ?</strong>
                     </h4>
+                    <div class="fix">
                     <p>Le Lab'o
                         <br>Incubateur Numérique</p>
+                </div>
                     <ul class="list-unstyled">
                         <li><i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:name@example.com">weathermood@wildcodeschool.com</a>
                         </li>

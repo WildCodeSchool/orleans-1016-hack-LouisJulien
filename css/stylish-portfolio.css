@@ -240,7 +240,7 @@ header {
 /* Footer */
 
 footer {
-
+    text-shadow: none;
 }
 
 #to-top {
@@ -308,4 +308,13 @@ form input{
 
 .vent{
     padding-left: 100px;
+}
+
+h4{
+    color:black;
+    text-shadow: none;
+}
+
+.fix{
+    color: black;
 }
