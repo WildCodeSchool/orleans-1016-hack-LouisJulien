@@ -50,7 +50,7 @@
                 <div class="container input">
                     <form action="index2.php#about" class="find-location" method="POST" name="find" >
                         <input class="inp_text" type="text" placeholder="Veuillez tapez le nom d'un ville ou son ID ... Ex : New-York" name="search">
-                        <input type="submit" value="Find">
+                        <input type="submit" value="C'est parti !">
                     </form>
                 </div>
                 <div><a href="#about"><img src="images/right-arrow (1).png" alt=""></a></div>
@@ -65,7 +65,7 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2>Notre Concept : une ville, une météo, un morceau !</h2>
-                    <p class="lead">Plutôt d'humeur joyeux ? Vous broyer du noir aprés une longue journée ? N'hésitez plus !</p>
+                    <p class="lead">Plutôt d'humeur joyeuse ? Vous broyez du noir après une longue journée ? N'hésitez plus !</p>
                 </div>
             </div>
             <!-- /.row -->
@@ -78,29 +78,17 @@
     <?php
     include 'section-api.php';
     ?>
-
-    <!-- Callout -->
-    <aside class="callout">
-        <div class="text-vertical-center">
-            <h1>Vertically Centered Text</h1>
-        </div>
-    </aside>
-
-
-
-
     <!-- Footer -->
     <footer>
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h4><strong>Start Bootstrap</strong>
+                    <h4><strong>Vous avez fait bon voyage ?</strong>
                     </h4>
-                    <p>3481 Melrose Place
-                        <br>Beverly Hills, CA 90210</p>
+                    <p>Le Lab'o
+                        <br>Incubateur Numérique</p>
                     <ul class="list-unstyled">
-                        <li><i class="fa fa-phone fa-fw"></i> (123) 456-7890</li>
-                        <li><i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:name@example.com">name@example.com</a>
+                        <li><i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:name@example.com">weathermood@wildcodeschool.com</a>
                         </li>
                     </ul>
                     <br>
@@ -116,7 +104,7 @@
                         </li>
                     </ul>
                     <hr class="small">
-                    <p class="text-muted">Copyright &copy; Your Website 2014</p>
+                    <p class="text-muted">Copyright &copy; Wild Code School</p>
                 </div>
             </div>
         </div>

@@ -1646,7 +1646,8 @@ form textarea {
  */
 .site-footer {
   background: #262936;
-  padding: 50px 0; }
+
+  padding-top: -100px;}
   .site-footer .subscribe-form {
     position: relative;
     margin-bottom: 30px; }
@@ -1704,4 +1705,6 @@ form textarea {
 
     }
 
+footer{
 
+}
