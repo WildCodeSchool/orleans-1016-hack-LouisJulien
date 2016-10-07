@@ -3,12 +3,8 @@ include 'weather_api.php';
 ?>
 <section id="services" class="services bg-primary">
     <div class="container">
-        <div class="row text-center">
-            <div class="col-lg-10 col-lg-offset-1">
-                <h2>Our Services</h2>
-                <hr class="small">
                 <div class="row">
-                    <div class="col-md-3 col-sm-6">
+                    <div class="col-lg-3">
                         <div class="service-item">
                                 <span class="fa-stack fa-4x">
                                 <i class="fa fa-circle fa-stack-2x"></i>
@@ -42,7 +38,8 @@ include 'weather_api.php';
                                 </div>
                             </div>
                         </div>
-                    <div class="col-md-3 col-sm-6">
+                    </div>
+                    <div class="col-lg-3">
                         <?php
                         if (empty($weather_type)){
                             echo "<img src=\"images/icons/icon-1.svg\" alt=\">\" width='90'";
@@ -84,7 +81,6 @@ include 'weather_api.php';
                         }
 
                         ?>
-                    </div>
                         <span><img src="images/icon-umberella.png" alt="">
                             <?php if (empty($decode)){
                                 echo '?';
@@ -101,18 +97,17 @@ include 'weather_api.php';
                             }
                             ?>
 								</span>
-                    <div class="col-md-3 col-sm-6">
-                        <div class="deezer pull-right">
+                    </div>
+
+                    <div class="col-lg-offset-2 col-lg-4">
+                        <div class="deezer center-block">
                             <?php include "deezer_api.php"; ?>
                         </div>
                     </div>
 
-                </div>
-                <!-- /.row (nested) -->
-            </div>
-            <!-- /.col-lg-10 -->
-        </div>
-        <!-- /.row -->
+
+
     </div>
+        </div>
     <!-- /.container -->
 </section>
