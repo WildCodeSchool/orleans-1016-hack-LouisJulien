@@ -248,11 +248,19 @@ footer {
   bottom: 5px;
   right: 5px;
 }
+.input_search{
+   border-radius: 14px;
+}
+input{
+    cursor: auto;
+}
+
 .find-location {
     position: relative;
     margin-bottom: 70px;
-    border-radius: 14px;
+
 }
+
 .find-location input[type="text"] {
     width: 100%;
     padding: 20px 50px 20px 20px;
