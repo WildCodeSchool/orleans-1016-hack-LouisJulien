@@ -4,9 +4,9 @@ include 'weather_api.php';
 <section id="services" class="services bg-primary" xmlns="http://www.w3.org/1999/html">
     <div class="container">
                 <div class="row">
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 col-md-6 col-xs-12">
                         <div class="row">
-                            <div class="col-lg-12">
+                            <div class="col-lg-12 col-md-12 col-xs-12">
                                 <div class="ville center-block">
                                 <?php if (empty($decode)){
 
@@ -60,7 +60,7 @@ include 'weather_api.php';
                                 ?>
                                 </div>
                             </div>
-                            <div class="col-lg-12">
+                            <div class="col-lg-12 col-md-12 col-xs-12">
                                 <div class="temperature">
 
                                 <?php if (empty($decode)){
@@ -74,7 +74,7 @@ include 'weather_api.php';
                                 <sup>o</sup>C
                                 </div>
                             </div>
-                            <div class="col-lg-12">
+                            <div class="col-lg-12 col-md-12 col-xs12">
                                 <div class="donnees">
                              <span><img src="images/icon-umberella.png" alt="">
                                  <?php if (empty($decode)){
@@ -100,7 +100,7 @@ include 'weather_api.php';
 
                 </div>
 
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 col-md-6 col-xs-12">
                         <div class="deezer pull-right">
                             <?php include "deezer_api.php"; ?>
                         </div>
